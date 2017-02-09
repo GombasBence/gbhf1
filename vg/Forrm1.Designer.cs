@@ -34,17 +34,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(85, 121);
+            this.button1.Location = new System.Drawing.Point(126, 132);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Összeadás";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 39);
+            this.textBox1.Location = new System.Drawing.Point(81, 30);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(167, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
