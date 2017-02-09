@@ -8,6 +8,7 @@ namespace vg
 {
     class Calculator
     {
+        public const double pI = 3.14; 
         public static double Osszead (double egyik_szam, double masik_szam)
         {
             return egyik_szam + masik_szam;
