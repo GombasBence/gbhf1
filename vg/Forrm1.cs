@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace vg
 {
-    public partial class Form1 : Form
+    public partial class Forrm1 : Form
     {
-        public Form1()
+        public Forrm1()
         {
             InitializeComponent();
+        }
+
+        private void Forrm1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
